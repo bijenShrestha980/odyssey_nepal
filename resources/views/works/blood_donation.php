@@ -1,6 +1,6 @@
-@extends ('layout')
+@extends('layouts.app')
 
-@section ('content')
+@section('content')
 
 <!-- Start Banner Hero -->
 <div id="blood_single_banner" class="bg-light w-100">
@@ -161,5 +161,4 @@
 
     </article>
     <!-- End Related Post -->
-
     @endsection

@@ -1,6 +1,6 @@
-@extends ('layout')
+@extends('layouts.app')
 
-@section ('content')
+@section('content')
 
 <!-- Start Banner Hero -->
 <div class="banner-wrapper bg-light">

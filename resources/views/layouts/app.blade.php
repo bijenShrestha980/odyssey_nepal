@@ -16,13 +16,8 @@
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/responsive.css') }}">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/custom.css') }}">
-    <!--
-    
-TemplateMo 561 Purple Buzz
+    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
 
-https://templatemo.com/tm-561-purple-buzz
-
--->
 
 </head>
 
@@ -83,13 +78,13 @@ https://templatemo.com/tm-561-purple-buzz
                                 @endif
                                 @else
                                 <li class="nav-item dropdown">
-                                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="top: -3px; position: relative;" v-pre>
+                                    <a id="navbarDropdown" class="nav-link dropdown-toggle rounded-pill" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="top: -3px; position: relative;" v-pre>
                                         {{ Auth::user()->username }}
                                     </a>
 
-                                    <div class="dropdown-content">
+                                    <div class="dropdown-content" style="left: -70px;">
                                         <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('logout') }}" onclick="event.preventDefault();
-                            document.getElementById('logout-form').submit();">
+                                            document.getElementById('logout-form').submit();">
                                             {{ __('Logout') }}
                                         </a>
 
@@ -111,7 +106,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Load Main Content Container -->
-    @yield ('content')
+    @yield('content')
     <!-- Main content End -->
 
 
