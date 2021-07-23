@@ -1,20 +1,19 @@
 /*
 
-TemplateMo 561 Purple Buzz
-
-https://templatemo.com/tm-561-purple-buzz
-
 ---------------------------------------------
 Table of contents
 ------------------------------------------------
 1. Typography
 2. Main Nav
+3. Dropdown
 3. Home
 4. About
 5. work
 6. Single work
 7. Pricing
 8. Contact
+9. Login
+10. Signup
 --------------------------------------------- */
 
 html {
@@ -157,7 +156,7 @@ ul {
     color: #0057a9
 }
 
-/*dropdown*/
+/*Dropdown*/
 
 .dropdown {
     display: inline-block;
@@ -169,8 +168,8 @@ ul {
     width: 150px;
     border-radius: 20px;
     text-align: center;
-    left: -100px;
-    top: 40px;
+        right: 0!important;
+    left: auto!important;    top: 40px;
     animation: transitionIn 0.5s;
     z-index: 1;
     box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);

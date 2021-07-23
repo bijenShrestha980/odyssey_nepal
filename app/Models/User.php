@@ -42,7 +42,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function works(){
+    public function work(){
         return $this->hasMany(Work::class);
     }
 }

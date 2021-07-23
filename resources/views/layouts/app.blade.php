@@ -63,7 +63,7 @@
                     @guest
                     @if (Route::has('login'))
                     <div class="dropdown">
-                        <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
+                        <div class="nav-link"><i class='bx bx-cog bx-sm text-primary'></i></div>
                         <div class="dropdown-content">
                             <ul>
                                 <li>
