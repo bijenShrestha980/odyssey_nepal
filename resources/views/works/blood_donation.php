@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
 <!-- Start Banner Hero -->
 <div id="blood_single_banner" class="bg-light w-100">
     <div class="container-fluid text-light d-flex justify-content-center align-items-center border-0 rounded-0 p-0 py-5" style="height: 400px">

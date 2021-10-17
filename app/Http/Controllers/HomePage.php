@@ -4,9 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Work;
+
 class HomePage extends Controller{
 
 	public function index(){
+		$work = new Work();
+
+		$recent = $work->user();
 		return view('index');
 	}
 
